@@ -1,0 +1,459 @@
+2025-04-25 12:40:39,967 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-04-25 12:40:39,970 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-04-25 12:40:39,974 - TransitSystem - INFO - http_handlers - HTTP server started on port 8080 (CORS enabled)
+2025-04-25 12:40:43,235 - TransitSystem - INFO - transit_system - GTFS zip file downloaded.
+2025-04-25 12:40:43,302 - TransitSystem - INFO - transit_system - Processed 69 stops from GTFS.
+2025-04-25 12:40:43,314 - TransitSystem - INFO - transit_system - Built spatial index with 69 stops.
+2025-04-25 12:40:44,033 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:45,155 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:46,556 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:47,674 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:50,160 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:52,621 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:54,314 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:55,503 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:56,689 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:58,232 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:40:59,366 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:00,496 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:01,638 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:02,902 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:04,075 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:05,621 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:09,921 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:11,041 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:12,750 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:13,873 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:15,040 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:16,292 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:17,551 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:19,652 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:20,843 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:22,066 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:22,074 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /stops.json HTTP/1.1" 200 22410 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,078 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /routes.json HTTP/1.1" 200 972 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,081 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /trips.json HTTP/1.1" 200 10167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,084 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1164 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,089 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /stops.json HTTP/1.1" 200 22410 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,176 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /routes.json HTTP/1.1" 200 972 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,179 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /trips.json HTTP/1.1" 200 10167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,180 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1164 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,200 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /routes.json HTTP/1.1" 200 972 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,201 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /shapes.json HTTP/1.1" 200 676938 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,204 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /stops.json HTTP/1.1" 200 22410 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,206 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /trips.json HTTP/1.1" 200 10167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,225 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /routes.json HTTP/1.1" 200 972 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,229 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /stops.json HTTP/1.1" 200 22410 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,230 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /shapes.json HTTP/1.1" 200 676938 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,233 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /trips.json HTTP/1.1" 200 10167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,256 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /shapes.json HTTP/1.1" 200 676938 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,259 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /routes.json HTTP/1.1" 200 972 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,263 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /stops.json HTTP/1.1" 200 22410 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,265 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /trips.json HTTP/1.1" 200 10167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,266 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /shapes.json HTTP/1.1" 200 676938 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,268 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /routes.json HTTP/1.1" 200 972 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,271 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /stops.json HTTP/1.1" 200 22410 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,274 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /trips.json HTTP/1.1" 200 10167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:22,563 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:22 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1164 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:23,206 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:23,566 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:23 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:24,638 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:24 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:24,671 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:25,555 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:25 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:25,780 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:26,565 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:26 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:27,082 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:27,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:27 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:28,413 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:28,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:28 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:30,440 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:30 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:30,478 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:30,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:30 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:31,684 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:31 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:31,720 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:32,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:32 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:32,952 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:33,559 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:33 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:34,997 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:34 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:35,038 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:35,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:35 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:36,197 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:36,571 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:36 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:37,411 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:37,557 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:37 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:38,557 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:38,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:38 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:39,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:39 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:39,950 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:40,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:40 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:41,122 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:41,562 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:41 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:42,677 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:42 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:42,732 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:43,560 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:43 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:43,908 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:44,559 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:44 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:45,190 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:45,564 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:45 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:46,668 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:46 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:46,693 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:47,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:47 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:48,770 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:48 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:48,804 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:49,559 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:49 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:50,036 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:50,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:50 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:51,277 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:51,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:51 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:52,409 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:52,557 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:52 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:53,556 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:53,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:53 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:54,700 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:54 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:54,728 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:55,555 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:55 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:55,880 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:56,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:56 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:57,362 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:57,566 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:57 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:59,056 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:59 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:41:59,074 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:41:59,563 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:41:59 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:00,703 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:00 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:00,724 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:01,593 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:01 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:02,271 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:02,561 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:02 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:03,534 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:03,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:03 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:04,934 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:04 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:04,968 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:05,564 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:05 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:06,203 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:06,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:06 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:07,396 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:07,555 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:07 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:08,640 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:08 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:08,661 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:09,557 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:09 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:10,108 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:10,557 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:10 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:11,228 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:11,568 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:11 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:12,846 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:12 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:12,894 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:13,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:13 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:14,109 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:14,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:14 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:15,361 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:15,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:15 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:16,627 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:16 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:16,654 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:17,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:17 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:17,887 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:18,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:18 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:19,001 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:19,566 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:19 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:20,348 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:20,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:20 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:21,473 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:21,557 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:21 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:23,307 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:23 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:23,369 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:23,564 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:23 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:25,046 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:25 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:25,074 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:25,562 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:25 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:26,718 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:26,719 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:26 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:27,560 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:27 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:27,956 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:28,560 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:28 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:29,496 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:29,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:29 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:30,617 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:30 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:30,645 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:31,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:31 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:31,787 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:32,568 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:32 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:32,950 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:33,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:33 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:34,071 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:34,571 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:34 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:35,206 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:35,564 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:35 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:36,834 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:36 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:36,861 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:37,565 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:37 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:38,071 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:38,567 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:38 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:39,614 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:39 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:39,633 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:40,560 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:40 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:42,068 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:42 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:42,098 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:42,555 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:42 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:44,690 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:44 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:44,694 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:44 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:44,735 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:45,562 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:45 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:45,873 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:46,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:46 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:47,121 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:47,555 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:47 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:48,271 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:48,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:48 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:50,278 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:50,279 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:50 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:50,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:50 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:52,722 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:52 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:52,743 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:52 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:52,775 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:53,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:53 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:54,395 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:54,557 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:54 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:56,604 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:56 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:56,625 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:56,626 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:56 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:57,557 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:57 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:57,747 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:58,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:58 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:42:59,302 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:42:59,565 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:42:59 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:00,442 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:00,558 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:00 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:01,566 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:01,567 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:01 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:02,553 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:02 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:02,712 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:03,554 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:03 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:04,112 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:04,560 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:04 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:06,317 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:06 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:06,349 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:06,559 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:06 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:07,855 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:07 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:07,881 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:08,559 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:08 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:09,130 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:09,557 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:09 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:10,404 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:10,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:10 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:11,560 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:11,562 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:11 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:12,561 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:12 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:12,675 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:13,567 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:13 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:14,149 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:14,566 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:14 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:15,854 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:15 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:15,886 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:16,556 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:16 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:17,131 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:17,562 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:17 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:18,399 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:18,568 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:18 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:19,545 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:19,564 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:19 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:21,111 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:21 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:21,136 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:21,560 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:21 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:22,270 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:22,562 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:22 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:23,409 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:23,562 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:23 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:24,549 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:24,981 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:24 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:25,681 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:25,981 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:25 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:26,820 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:26,978 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:26 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:28,122 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:28 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:28,148 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:28,974 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:28 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:29,636 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:29,976 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:29 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:31,217 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:31 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:31,252 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:31,988 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:31 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:33,379 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:33 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:33,411 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:33,980 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:33 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:34,699 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:34,982 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:34 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:35,845 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:35,981 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:35 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:37,009 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:37 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:37,047 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:37,976 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:37 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:38,537 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:38,977 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:38 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:40,519 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:40 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:40,571 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:40,977 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:40 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:43,497 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:43 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:43,506 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:43 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:43,546 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:43,980 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:43 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:44,714 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:44,977 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:44 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:45,855 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:45,976 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:45 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:47,016 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:47 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:47,062 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:47,982 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:47 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:48,192 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:48,978 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:48 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:49,336 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:49,975 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:49 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:50,515 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:50,987 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:50 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:51,764 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:51,984 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:51 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:52,912 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:52,974 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:52 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:55,742 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:55 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:55,757 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:55 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:55,793 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:55,976 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:55 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:57,024 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:57 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:57,049 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:57,983 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:57 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:58,507 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:58,984 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:58 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:43:59,676 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:43:59,988 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:43:59 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:00,903 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:00,986 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:00 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:02,152 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:02 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:02,173 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:02,974 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:02 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:03,398 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:03,975 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:03 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:04,639 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:04,972 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:04 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:06,145 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:06 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:06,162 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:06,980 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:06 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:07,472 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:07,984 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:07 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:08,592 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:08,983 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:08 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1166 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:09,712 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:09,975 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:09 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:10,837 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:10,981 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:10 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:12,230 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:12 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:12,254 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:12,974 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:12 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:13,364 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:13,987 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:13 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:14,659 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:14,985 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:14 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:16,842 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:16 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:16,865 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:16,983 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:16 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:18,083 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:18 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:18,126 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:18,973 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:18 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:19,633 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:19,977 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:19 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:21,588 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:21 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:21,640 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:21,978 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:21 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:22,748 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:22,979 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:22 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:23,869 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:23,975 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:23 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:24,986 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:26,563 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:28,130 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:30,203 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:32,165 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:33,319 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:34,426 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:35,558 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:36,748 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:37,979 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:39,126 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:39,978 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:44:39 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1168 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:44:40,321 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:41,888 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:43,523 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:45,272 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:46,399 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:47,555 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:49,218 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:50,799 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:52,438 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:53,753 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:55,728 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:56,909 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:58,036 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:44:59,246 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:00,391 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:01,521 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:02,988 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:05,036 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:06,851 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:08,318 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:09,929 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:11,067 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:12,720 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:14,362 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:15,996 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:17,693 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:18,968 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:20,195 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:21,428 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:22,562 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:23,730 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:24,842 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:26,191 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:27,488 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:28,676 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:30,210 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:45:30 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:45:30,237 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:30,554 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:45:30 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:45:33,476 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:45:33 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:45:33,485 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:45:33 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:45:33,524 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:33,975 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:45:33 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:45:34,638 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:34,975 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:45:34 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-04-25 12:45:35,763 - TransitSystem - INFO - transit_system - Processed and updated feed for 1 buses.
+2025-04-25 12:45:35,975 - aiohttp.access - INFO - web_log - 127.0.0.1 [25/Apr/2025:12:45:35 +0530] "GET /realtime/vehicle_positions.json HTTP/1.1" 200 1167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+2025-06-11 22:07:22,872 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:07:22,872 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:07:22,874 - TransitSystem - INFO - http_handlers - HTTP server started on port 8080 (CORS enabled)
+2025-06-11 22:07:23,736 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:07:25,752 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:07:25,752 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:07:26,262 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:07:28,272 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:07:28,273 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:07:29,151 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:07:33,160 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:07:33,161 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:07:34,169 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:07:42,176 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:07:42,177 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:07:42,783 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:07:42,784 - TransitSystem - ERROR - transit_system - GTFS maintenance failed: RetryError[<Future at 0x1675f738950 state=finished raised ClientResponseError>]
+2025-06-11 22:11:22,578 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:11:22,578 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:11:22,580 - TransitSystem - INFO - http_handlers - HTTP server started on port 8080 (CORS enabled)
+2025-06-11 22:11:23,188 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:11:25,196 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:11:25,197 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:11:25,822 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:11:27,832 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:11:27,833 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:11:28,622 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:11:32,628 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:11:32,629 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:11:33,353 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:11:41,367 - TransitSystem - INFO - transit_system - GTFS URL: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip
+2025-06-11 22:11:41,369 - TransitSystem - INFO - transit_system - Downloading GTFS data...
+2025-06-11 22:11:42,274 - TransitSystem - ERROR - transit_system - GTFS download failed: https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip with error: 403, message='Forbidden', url='https://msrtctransit.multiscreensite.com/gtfs/gtfs.zip'
+2025-06-11 22:11:42,277 - TransitSystem - ERROR - transit_system - GTFS maintenance failed: RetryError[<Future at 0x26870b88830 state=finished raised ClientResponseError>]

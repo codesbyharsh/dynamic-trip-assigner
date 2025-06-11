@@ -1,0 +1,10 @@
+aiohttp
+pymongo
+pandas
+numpy
+scikit-learn
+tenacity
+pymysql
+python-dotenv
+gtfs-realtime-bindings
+geopy
