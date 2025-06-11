@@ -37,6 +37,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-## API will be available at: http://127.0.0.1:3000/
+## API will be available at: http://localhost:8080/ 
 
 ### U Need to add this API in frontend .env.
