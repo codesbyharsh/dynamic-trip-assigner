@@ -39,4 +39,9 @@ python main.py
 ```
 ## API will be available at: http://localhost:8080/ 
 
+### 🛠️ Setup Instructions (Hosting)
+host using railway.com
+checkout yt and gpt for it ...it's not much complicated if u upload this readme file to gpt it is easy 
+
+
 ### U Need to add this API in frontend .env.
